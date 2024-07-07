@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/About.css";
-import teamPhoto from "../Components/Assets/hello.jpg";
-import missionPhoto from "../Components/Assets/hello.jpg";
+import teamPhoto from "../Components/Assets/hello.jpg"; // Ensure you have a team photo
+import missionPhoto from "../Components/Assets/hello.jpg"; // Ensure you have a mission photo
 
 const About = () => {
   return (

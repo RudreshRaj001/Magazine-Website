@@ -1,12 +1,16 @@
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("Home");
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   return (
-    <div className="navbar">
+    <div
+      className={`navbar ${isHomePage ? "navbar-transparent" : "navbar-solid"}`}
+    >
       <div className="nav-left">
         <div className="nav-logo">
           <p>Logo</p>
