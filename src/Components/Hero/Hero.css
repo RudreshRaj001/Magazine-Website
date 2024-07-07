@@ -1,0 +1,17 @@
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+  }
+  

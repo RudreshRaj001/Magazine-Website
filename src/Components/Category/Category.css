@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.category-container {
+    background-color: rgb(58, 1, 1);
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-div, .right-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-div img {
+    max-width: 80%;
+    max-height: 65vh;
+    padding-left: 40px;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text horizontally */
+}
+
+.right-div h2 {
+    color: white;
+    margin: 20px 0;
+    font-size: 50px; /* Normal size */
+    font-weight: 400;
+    text-align: center;
+    font-family: "Josefin Slab", serif; /* Ensure this font is imported in your project */
+    transition: font-weight 0.3s ease, font-size 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.right-div h2:hover {
+    font-weight: bold; /* Make text bold on hover */
+}
+
+.right-div h2.lifestyle {
+    font-weight: 700; /* Default bold for lifestyle */
+    font-size: 80px; /* Increase size for lifestyle */
+}
