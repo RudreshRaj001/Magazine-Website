@@ -1,0 +1,122 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-transparent {
+  background-color: rgba(38, 22, 22, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-solid {
+  background-color: #3a3535;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo p {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 15px;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+ 
+}
+
+.nav-menu li hr {
+  margin-top: 5px;
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-login {
+  margin-left: 15px;
+}
+
+.nav-login button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #0000001a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-login button:hover {
+  background-color: #333;
+}

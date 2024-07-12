@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.trending {
+    background-color: white;
+    /* background: linear-gradient(180deg, rgb(180, 180, 180)0%,#f1fff522 100%); */
+    padding: 20px;
+}
+
+.upper-div, .middle-div, .lower-div, .last-div {
+    margin-bottom: 30px;
+}
+
+.upper-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 150px;
+    justify-content: space-evenly;
+}
+
+.categories a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .categories span {
+    display: block;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Junge", cursive;
+    text-align: right;
+  }
+
+.health-text {
+    max-width: 50%;
+    margin-left: 20px; 
+    padding-right: 30px;
+}
+
+.health-text p {
+    font-family: "Junge", cursive; 
+    font-size: 20px;
+}
+
+.middle-div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .card-content p {
+    margin: 0;
+    color: #555;
+  }
+.lower-div {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.lower-div h1 {
+    font-style: oblique;
+    font-family: "Noto Serif Display", serif;
+    font-size: 60px;
+}
+
+.last-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; 
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 10px 10px;
+}
+
+.line h3 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.line h4 {
+    margin: 0;
+    font-weight: 15;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.line p {
+    margin: 0;
+}

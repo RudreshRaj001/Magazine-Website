@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Latest {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Latest-left, .Latest-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    flex: 1;
+}
+
+.Latest-left {
+    margin-right: 20px;
+}
+
+.Latest-right{
+    margin-right: 40px;
+}
+.Latest-left-one, .Latest-left-two {
+    /* No background color */
+    color: white;
+    height: 217px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    width: 80%;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.Latest-left-two{
+    margin-bottom: 100px;
+}
+
+.Latest-left-one .image, .Latest-left-two .image {
+    background: url('../Assets/photo.avif') no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.Latest-left-one h3, .Latest-left-two h3 {
+    margin: 0 0 10px 0;
+}
+
+.Latest-left-one p, .Latest-left-two p {
+    margin-right: 20px;
+}
+
+.Latest-right {
+    margin-left: 50px;
+}
+
+.Latest-right h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: -5px;
+
+
+  font-family: "Noto Serif Display", serif;
+  /* font-optical-sizing: auto; */
+ 
+
+}
+
+.Latest-right .image {
+    width: 550px;
+    height: 350px;
+    /* margin-bottom: 20px; */
+    background: url('../Assets/photo.avif') no-repeat center center;
+    background-size: cover;
+}
+
+.Latest-right p {
+    color: white;
+    margin: 0;
+}
